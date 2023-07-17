@@ -5,26 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="normalize.css" />
-    <title>BMI</title>
+    <title>Grades</title>
 </head>
 <body>
     <div class="container">
-        <h1>Калькулятор ИМТ </h1>
+        <h1>Анализ оценок студентов </h1>
         <div class="list">
             <div class="section">
-                <h3>Вес (кг)</h3>
-                <input type="text" id="weight">
+                <h3>Оценки: </h3>
+                <span id="grade">&#8212;</span>
             </div>
             <div class="section">
-                <h3>Рост (cм) </h3>
-                <input type="text" id="height">
+                <h3>1. Средний балл: </h3>
+                <span id="average">&#8212;</span>
             </div>
             <div class="section">
-                <button onclick=calculateBMI() id="btn">Рассчитать ИМТ</button>
+                <h3>2. Максимальный балл: </h3>
+                <span id="max">&#8212;</span>
             </div>
-            <div>
-                <h3>Индекс массы тела (ИМТ):</h3>
-                <span id="result"></span>
+            <div class="section">
+                <h3>3. Минимальный балл: </h3>
+                <span id="min">&#8212;</span>
+            </div>
+            <div class="section">
+                <h3>4. Количество студентов, получивших положительную оценку: </h3>
+                <span id="positive">&#8212;</span>
+            </div>
+            <div class="section">
+                <h3>5. Количество студентов, получивших отрицательную оценку: </h3>
+                <span id="negative">&#8212;</span>
+            </div>
+            <div class="section">
+                <h3>6. Оценки в буквенном формате: </h3>
+                <span id="letter">&#8212;</span>
+            </div>
+
+            <div class="section">
+                <button onclick=calculateGrades() id="btn">Расчет</button>
             </div>
         </div>
 

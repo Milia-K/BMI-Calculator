@@ -11,45 +11,24 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(215, 187, 243);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .list{
     background-color: rgb(234, 220, 248);
     width: 80%;
-    height: 80vh;
-    padding: 3%;
+    height: 90%;
+    padding: 1%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     text-align: center;
-    margin: 3% 0 3% 0;
+    margin: 1% 0 1% 0;
     border-radius: 5px;
     border: 1px;
-}
-
-.li{
-    padding: 4px 8px ;
-    background: rgb(234, 220, 248);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 100%;
-}
-
-.btn{
-    padding: 4px 8px ;
-    background: rgb(215, 187, 243);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    position: relative;
-    width: 15%;
 }
 
 #btn{
@@ -61,24 +40,14 @@
     width: 15%;
 }
 
-.li-active{
-    padding: 4px 8px ;
-    text-decoration: line-through;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 100%;
-}
-
 .section{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 }
 
 h3 {
-	font-size: 1.9rem;
+	font-size: 1.3rem;
 }
