@@ -1,11 +1,10 @@
-//
+//declaration
 let grade=document.getElementById('grade');
 let average=document.getElementById('average');
 let max=document.getElementById('max');
 let min=document.getElementById('min');
 let negative =document.getElementById('negative'); 
 let letter=document.getElementById('letter');
-
 
 function calculate(){
 
